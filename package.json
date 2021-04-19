@@ -3,7 +3,7 @@
         "client": "npm start --prefix client",
         "server": "NODE_ENV=development cd server && nodemon server.js",
         "dev": "concurrently \"npm run server\" \"npm run client\"",
-        "install": "concurrently \"npm i\" \"npm install --prefix server\" \"npm install prefix --client\"",
+        "install": "npm install --prefix client npm install --prefix server npm install",
         "i": "npm run install",
         "build" : "npm run build --prefix client"
     },
