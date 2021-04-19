@@ -3,9 +3,9 @@
         "client": "npm start --prefix client",
         "server": "NODE_ENV=development cd server && nodemon server.js",
         "dev": "concurrently \"npm run server\" \"npm run client\"",
-        "install": "npm install --prefix client npm install --prefix server npm install",
-        "i": "npm run install",
-        "build" : "npm run build --prefix client"
+        "post": "npm install && npm --prefix client install && npm --prefix server install",
+        "p": "npm run post",
+        "build": "npm run build --prefix client"
     },
     "dependencies": {
         "prefix": "^1.0.0"
