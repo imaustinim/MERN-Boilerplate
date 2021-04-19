@@ -1,2 +1,0 @@
-(this.webpackJsonpclient=this.webpackJsonpclient||[]).push([[0],{10:function(e,n,t){},11:function(e,n,t){"use strict";t.r(n);var c=t(1),i=t.n(c),r=t(3),s=t.n(r),o=(t(8),t(0));var d=function(){return Object(o.jsx)("div",{className:"App",children:Object(o.jsx)("div",{children:"MERN BOILERPLATE"})})};t(10);s.a.render(Object(o.jsx)(i.a.StrictMode,{children:Object(o.jsx)(d,{})}),document.getElementById("root"))},8:function(e,n,t){}},[[11,1,2]]]);
-//# sourceMappingURL=main.dfa88676.chunk.js.map
