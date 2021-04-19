@@ -11,9 +11,11 @@ const app = express();
 app.use(logger('dev'));
 app.use(express.json());
 
-console.log(__dirname)
 app.use(favicon(path.join(__dirname, "..", "client", 'build', 'favicon.ico')));
 app.use(express.static(path.join(__dirname, "..", "client", 'build')));
+
+const apiRouter = require("./routes/api.routes");
+app.use("/api", apiRouter);
 
 app.listen(port, function() {
     console.log(`Express app running on port ${port}`)

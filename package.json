@@ -2,6 +2,12 @@
     "scripts": {
         "client": "npm start --prefix client",
         "server": "NODE_ENV=development cd server && nodemon server.js",
-        "dev": "concurrently \"npm run server\" \"npm run client\""
+        "dev": "concurrently \"npm run server\" \"npm run client\"",
+        "install": "concurrently \"npm install --prefix server\" \"npm install prefix --client\"",
+        "i": "npm run install",
+        "build" : "npm run build --prefix client"
+    },
+    "dependencies": {
+        "prefix": "^1.0.0"
     }
 }
