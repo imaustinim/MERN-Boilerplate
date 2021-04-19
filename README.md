@@ -10,4 +10,4 @@ Run on the following commmands on the root directory to get started.
 
 Enjoy
 
-(C) Austin Im
+ⓒ Austin Im
