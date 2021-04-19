@@ -4,10 +4,10 @@ Uses Express server and React client. No database installed
 
 Run on the following commmands on the root directory to get started.
 
-```npm run i/install``` -> Installs packages
-```npm run build``` -> Creates index.html by running build
-```npm run dev``` -> Runs server (Port=5000) and client (Port=3000) concurrently using the "concurrently" package.
+1) ```npm run i/install``` Installs packages
+2) ```npm run build``` Creates index.html by running build
+3) ```npm run dev``` Runs server (Port=5000) and client (Port=3000) concurrently using the "concurrently" package.
 
-Enjoy
+Enjoy ~
 
 ⓒ Austin Im
