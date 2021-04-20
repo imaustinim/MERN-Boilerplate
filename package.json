@@ -5,6 +5,7 @@
         "dev": "concurrently --raw \"npm run server\" \"npm run client\"",
         "post": "npm install concurrently --save && npm --prefix client install && npm --prefix server install",
         "p": "npm run post",
+        "audit": "npm audit fix && npm --prefix client audit fix && npm --prefix server audit fix",
         "build": "npm run build --prefix client"
     },
     "dependencies": {
